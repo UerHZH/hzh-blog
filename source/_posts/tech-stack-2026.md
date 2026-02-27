@@ -1,54 +1,49 @@
 ---
-title: 2026年，我选择的技术栈
+title: 我的技术栈
 date: 2026-02-27 14:00:00
 categories:
   - 技术
 tags:
   - 技术栈
-  - 前端
-  - 学习
+  - 硬件
+  - 嵌入式
 ---
 
-> "选择比努力更重要，但持续学习比选择更重要。"
+> "能用代码解决的事，都不叫事"
 
-## 我的2026技术选型
+## 日常使用
 
-### 🚀 前端框架
+### 编程语言
 
-| 框架 | 熟悉度 | 应用场景 |
-|------|--------|----------|
-| React | ⭐⭐⭐⭐⭐ | 大型应用 |
-| Vue | ⭐⭐⭐⭐ | 中小型项目 |
-| Svelte | ⭐⭐ | 学习中 |
+| 语言 | 用途 | 熟练度 |
+|------|------|--------|
+| Python | 视觉算法/建模/脚本 | 主力 |
+| C++ | 嵌入式/固件 | 常用 |
+| JavaScript | 前端/小工具 | 够用 |
+| C | 底层开发 | 会点 |
 
-### ⚡ 后端
+### 硬件相关
 
 ```
-Node.js + Express/NestJS
-Python + FastAPI
-Go (学习中)
+STM32 / Arduino      microcontroller
+ESP32               WiFi/BLE
+Raspberry Pi        边缘计算
+Jetson Nano         视觉处理
 ```
 
-### 🛠️ 开发工具
+### 软件工具
 
-- **编辑器**: VS Code / Cursor
-- **版本控制**: Git + GitHub
-- **部署**: Cloudflare Pages / Vercel
-- **调试**: Chrome DevTools
+- 建模: Fusion 360, Onshape
+- CAD: build123d, cadquery
+- PCB: KiCad
+- 固件: PlatformIO, Arduino IDE
 
-## 学习路线
+## 近期在折腾
 
-```mermaid
-graph LR
-    A[HTML/CSS] --> B[JavaScript]
-    B --> C[React/Vue]
-    B --> D[Node.js]
-    C --> E[全栈开发]
-    D --> F[微服务]
-```
+- 工创赛救援小车的视觉巡线
+- 五轴3D打印机固件调教
+- 参数化零件库搭建
 
-## 总结
+---
 
-> "技术是工具，思维是核心。"
-
-持续学习，保持好奇心！
+技术栈会变，但解决问题的思路不变。
